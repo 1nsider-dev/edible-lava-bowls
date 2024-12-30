@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:edible-lava-bowls/root",
+  "criteria": {
+    "drank_hot_lava_bowl": {
+      "conditions": {
+        "item": {
+          "items": "edible-lava-bowls:hot_lava_bowl"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "edible-lava-bowls.adv.desc.hotlava"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "edible-lava-bowls:hot_lava_bowl"
+    },
+    "title": {
+      "translate": "edible-lava-bowls.adv.name.hotlava"
+    }
+  },
+  "requirements": [
+    [
+      "drank_hot_lava_bowl"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

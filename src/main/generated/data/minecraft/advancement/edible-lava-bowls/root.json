@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "drank_lava_bowl": {
+      "conditions": {
+        "item": {
+          "items": "edible-lava-bowls:lava_bowl"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "background": "edible-lava-bowls:textures/item/still_lava.png",
+    "description": {
+      "translate": "edible-lava-bowls.adv.desc.root"
+    },
+    "icon": {
+      "count": 1,
+      "id": "edible-lava-bowls:lava_bowl"
+    },
+    "title": {
+      "translate": "edible-lava-bowls.adv.name.root"
+    }
+  },
+  "requirements": [
+    [
+      "drank_lava_bowl"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "item.edible-lava-bowls.lava_bowl" : "Bowl of Lava",
+  "item.edible-lava-bowls.hot_lava_bowl" : "Bowl of Really Hot Lava",
+  "tooltip.edible-lava-bowls.hot_lava_bowl" : "It's really hot. Probably don't ingest near valuable things.",
+
+  "death.attack.lavabowl" : "%s drank a bowl full of lava",
+  "death.attack.lavabowl.player" : "%s ended it all with a bowl of lava whilst fighting %s",
+  "death.attack.hotlavabowl" : "%s was incinerated by a bowl full of really, really hot lava",
+  "death.attack.hotlavabowl.player" : "%s ended it all with a bowl of really, really hot lava whilst fighting %s",
+
+  "edible-lava-bowls.adv.name.root" : "High Risk, No Reward",
+  "edible-lava-bowls.adv.desc.root" : "Drink a bowl of lava.",
+  "edible-lava-bowls.adv.name.hotlava" : "A Little Kick",
+  "edible-lava-bowls.adv.desc.hotlava" : "Drink a bowl of really, really hot lava.",
+
+  "itemGroup.edible-lava-bowls" : "Edible Lava Bowls"
+}

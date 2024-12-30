@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": "edible-lava-bowls:lava_bowl",
+  "result": {
+    "id": "edible-lava-bowls:hot_lava_bowl"
+  }
+}

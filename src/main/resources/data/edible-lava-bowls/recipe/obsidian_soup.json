@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "edible-lava-bowls:lava_bowl"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "edible-lava-bowls:obsidian_bowl"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "edible-lava-bowls:item/sniffer_sous_vide"
+  }
+}

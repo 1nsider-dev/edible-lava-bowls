@@ -14,18 +14,26 @@ import teayettle.lavabowls.Register;
 
 import java.util.List;
 
-public class LavaBowl extends Item {
+public class HotLavaBowl extends Item {
 
-    public LavaBowl(Settings settings) {
+    public HotLavaBowl(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        MutableText t = Text.translatable("tooltip.edible-lava-bowls.hot_lava_bowl");
+        t.setStyle(t.getStyle().withColor(Formatting.RED));
+        tooltip.add(t);
+        super.appendTooltip(stack, context, tooltip, type);
     }
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         ItemStack itemStack = super.finishUsing(stack, world, user);
         if (world instanceof ServerWorld server) {
-            user.damage(Register.of(server, Register.LAVA_DMGS), 8);
-            user.setOnFireFor(12f);
+            server.createExplosion(user, Register.of(server, Register.HOT_LAVA_DMGS), null, user.getPos(), 5f, true, World.ExplosionSourceType.TNT);
+            user.damage(Register.of(server, Register.HOT_LAVA_DMGS), 20);
         }
         return itemStack;
     }

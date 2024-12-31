@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "edible-lava-bowls:item/fresh_root_soup"
+  }
+}

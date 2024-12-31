@@ -31,6 +31,9 @@ public class DataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack p = gen.createPack();
         p.addProvider(ELBModelProvider::new);
         p.addProvider(AdvancementsProvider::new);
+        p.addProvider(LootTableProvider::new);
+        p.addProvider(RecipeProvider::new);
+        p.addProvider(TagProvider::new);
     }
 
     static class AdvancementsProvider extends FabricAdvancementProvider {
@@ -52,7 +55,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                             true,
                             false
                     )
-                    .criterion("drank_lava_bowl", ConsumeItemCriterion.Conditions.item(null, Register.LAVA_BOWL))
+                    .criterion("drank_lava_bowl", ConsumeItemCriterion.Conditions.item(Register.LAVA_BOWL))
                     .build(consumer, EdibleLavaBowls.MODID + "/root");
             AdvancementEntry hotAdv = Advancement.Builder.create().parent(rootAdv)
                     .display(
@@ -65,7 +68,7 @@ public class DataGenerator implements DataGeneratorEntrypoint {
                             true,
                             true
                     )
-                    .criterion("drank_hot_lava_bowl", ConsumeItemCriterion.Conditions.item(null, Register.HOT_LAVA_BOWL))
+                    .criterion("drank_hot_lava_bowl", ConsumeItemCriterion.Conditions.item(Register.HOT_LAVA_BOWL))
                     .build(consumer, EdibleLavaBowls.MODID + "/drank_hot_lava_bowl");
         }
     }

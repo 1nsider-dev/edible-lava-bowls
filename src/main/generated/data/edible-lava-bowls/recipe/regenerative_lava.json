@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "regen_lava",
+  "key": {
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "j": {
+      "item": "minecraft:iron_bars"
+    },
+    "r": {
+      "item": "edible-lava-bowls:hot_lava_bowl"
+    }
+  },
+  "pattern": [
+    "bjb",
+    "brb",
+    "bib"
+  ],
+  "result": {
+    "count": 1,
+    "id": "edible-lava-bowls:regenerative_lava"
+  }
+}

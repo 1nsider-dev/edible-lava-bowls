@@ -2,6 +2,16 @@
   "item.edible-lava-bowls.lava_bowl" : "Bowl of Lava",
   "item.edible-lava-bowls.hot_lava_bowl" : "Bowl of Really Hot Lava",
   "tooltip.edible-lava-bowls.hot_lava_bowl" : "It's really hot. Probably don't ingest near valuable things.",
+  "item.edible-lava-bowls.brickwart_stew" : "Brickwart Stew",
+  "item.edible-lava-bowls.fresh_root_soup" : "Fresh Root Soup",
+  "item.edible-lava-bowls.buttery_crimson" : "Buttery Crimson",
+  "item.edible-lava-bowls.magma_butter_slice" : "Magma Butter",
+  "item.edible-lava-bowls.obsidian_bowl" : "Bowl of Obsidian",
+  "item.edible-lava-bowls.wart_macaroni" : "Macaroni Mess Mix",
+  "item.edible-lava-bowls.sniffer_sous_vide" : "Sniffer Sous Vide",
+  "item.edible-lava-bowls.buttered_dumplings" : "Magma-Buttered Dumplings",
+
+  "block.edible-lava-bowls.regenerative_lava" : "Self-Sustaining Lava Pool",
 
   "death.attack.lavabowl" : "%s drank a bowl full of lava",
   "death.attack.lavabowl.player" : "%s ended it all with a bowl of lava whilst fighting %s",

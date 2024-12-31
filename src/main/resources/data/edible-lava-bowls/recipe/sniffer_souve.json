@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item" : "minecraft:sniffer_egg"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "item": "edible-lava-bowls:magma_butter_slice"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 1,
+    "id": "edible-lava-bowls:sniffer_sous_vide"
+  }
+}

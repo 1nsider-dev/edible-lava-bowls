@@ -1,5 +1,13 @@
-// 1.21.4	-999999999-01-01T00:00:00	Edible Lava Bowls/Model Definitions
-008234dc9a1e74d286c5801e1860374165b56940 assets/edible-lava-bowls/items/hot_lava_bowl.json
-1f3a1351b064c2b17e069c716c3a280595ce4a69 assets/edible-lava-bowls/items/lava_bowl.json
-4500d4da482a9d04aa869266b84212f23b6a6b0d assets/edible-lava-bowls/models/item/hot_lava_bowl.json
-8af1fc127383bcd783e1473ff819307d1cd8b23d assets/edible-lava-bowls/models/item/lava_bowl.json
+// 1.21.1	2024-12-31T12:01:33.4254358	Edible Lava Bowls/Model Definitions
+0631944a9f6712dd7af0f970d6ea3abecad53e9c assets\edible-lava-bowls\models\item\buttery_crimson.json
+c9a32159c2cabdfa82954cbca14c0dfc9aa84d06 assets\edible-lava-bowls\models\item\brickwart_stew.json
+9d7e86c01f2358c464891a5c4306129b7225597b assets\edible-lava-bowls\models\item\regenerative_lava.json
+886e399334a0c26aabb3d974ff6ee9594ee70ab5 assets\edible-lava-bowls\models\item\fresh_root_soup.json
+859bb654cf6226ce9caa2fcc7ceeb30ea119a2da assets\edible-lava-bowls\blockstates\regenerative_lava.json
+4500d4da482a9d04aa869266b84212f23b6a6b0d assets\edible-lava-bowls\models\item\hot_lava_bowl.json
+8af1fc127383bcd783e1473ff819307d1cd8b23d assets\edible-lava-bowls\models\item\lava_bowl.json
+b74e0cec59ed717ae73887c625cb254012a6c778 assets\edible-lava-bowls\models\item\sniffer_sous_vide.json
+8e3cdd91707e497b9d6db25f5e15b976859eaad3 assets\edible-lava-bowls\models\item\magma_butter_slice.json
+71d24fde4a9e9d46fec134741489d67902cd003f assets\edible-lava-bowls\models\item\obsidian_bowl.json
+12a0e8f0034754a2800966899936f98a7ab5a739 assets\edible-lava-bowls\models\item\buttered_dumplings.json
+f426b00771d1f7ada4f0ee39b5ea0617646320bf assets\edible-lava-bowls\models\item\wart_macaroni.json

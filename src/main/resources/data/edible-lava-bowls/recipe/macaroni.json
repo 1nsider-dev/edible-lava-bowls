@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "edible-lava-bowls:lava_bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredients": [
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "c:crops/nether_wart"
+    },
+    {
+      "tag": "c:crops/nether_wart"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "edible-lava-bowls:wart_macaroni"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "edible-lava-bowls:block/regenerative_lava",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "edible-lava-bowls:block/regenerative_lava"
+    },
+    "facing=south": {
+      "model": "edible-lava-bowls:block/regenerative_lava",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "edible-lava-bowls:block/regenerative_lava",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "edible-lava-bowls:lava_bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.6,
+  "ingredients": [
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "tag": "c:crops/nether_wart"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "edible-lava-bowls:brickwart_stew"
+  }
+}

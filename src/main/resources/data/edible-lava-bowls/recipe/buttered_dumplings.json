@@ -1,0 +1,43 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "fabric:type": "fabric:any",
+      "ingredients": [
+        {
+          "tag": "c:foods/raw_chicken"
+        },
+        {
+          "tag": "c:foods/raw_pork"
+        },
+        {
+          "tag": "c:foods/raw_beef"
+        },
+        {
+          "item": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "item": "edible-lava-bowls:magma_butter_slice"
+    },
+    {
+      "item": "edible-lava-bowls:magma_butter_slice"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 2,
+    "id": "edible-lava-bowls:buttered_dumplings"
+  }
+}
